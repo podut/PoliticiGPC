@@ -2,7 +2,7 @@
 
 **Ultima actualizare: 12 Aprilie 2026**
 
-La **Medforpets**, respectăm confidențialitatea utilizatorilor noștri și a animalelor lor de companie. Această Politică de Confidențialitate descrie modul în care colectăm, utilizăm și protejăm informațiile dvs. atunci când utilizați aplicația noastră mobilă ("Aplicația"), disponibilă la adresa [https://medforpets.petrupodut.dev](https://medforpets.petrupodut.dev).
+La **Medforpets**, respectăm confidențialitatea utilizatorilor noștri și a animalelor lor de companie. Această Politică de Confidențialitate descrie modul în care colectăm, utilizăm și protejăm informațiile dvs. atunci când utilizați aplicația noastră mobilă ("Aplicația"), disponibilă la adresa [https://politici.petrupodut.dev](https://politici.petrupodut.dev).
 
 ---
 
@@ -63,7 +63,7 @@ Puteți exercita aceste drepturi prin ștergerea profilurilor animalelor din apl
 
 ## 6. Modificări ale Politicii
 
-Putem actualiza Politica de Confidențialitate periodic. Vă vom notifica despre orice modificare prin postarea noii politici la adresa [https://medforpets.petrupodut.dev](https://medforpets.petrupodut.dev) sau direct în magazinul Google Play.
+Putem actualiza Politica de Confidențialitate periodic. Vă vom notifica despre orice modificare prin postarea noii politici la adresa [https://politici.petrupodut.dev](https://politici.petrupodut.dev) sau direct în magazinul Google Play.
 
 ---
 
@@ -74,4 +74,4 @@ Dacă aveți întrebări sau sugestii despre Politica noastră de Confidențiali
 **Dezvoltator:** Poduț Petru Alexandru (Pixcode)
 **Email:** podutpetru@gmail.com
 **Adresă:** Str. Ciprian Porumbescu nr. 1, Baia Mare, Maramureș, România
-**Website:** [medforpets.petrupodut.dev](https://medforpets.petrupodut.dev)
+**Website:** [politici.petrupodut.dev](https://politici.petrupodut.dev)
