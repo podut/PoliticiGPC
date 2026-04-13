@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Politica de Confidențialitate oficială pentru aplicația Medforpets - Dezvoltator Poduț Petru Alexandru.">
+    <title>Politica de Confidențialitate - Medforpets</title>
+    
+    <!-- Date Structurate pentru LLM/Search Engines (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Politica de Confidențialitate Medforpets",
+      "description": "Descrierea modului în care Medforpets colectează și procesează datele de cameră și locație.",
+      "publisher": {
+        "@type": "Person",
+        "name": "Poduț Petru Alexandru",
+        "alternateName": "Pixcode"
+      },
+      "datePublished": "2026-04-12",
+      "mainEntity": {
+        "@type": "PrivacyPolicy",
+        "url": "https://medforpets.petrupodut.dev",
+        "relevantOccupation": "Pet Health AI Analysis"
+      }
+    }
+    </script>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <main role="main">
+            <header>
+                <h1>Politica de Confidențialitate pentru Medforpets</h1>
+                <p class="last-updated">Ultima actualizare: <time datetime="2026-04-12">12 Aprilie 2026</time></p>
+            </header>
+
+            <article>
+                <section id="introducere">
+                    <p>La <strong>Medforpets</strong>, respectăm confidențialitatea utilizatorilor noștri și a animalelor lor de companie. Această Politică de Confidențialitate descrie modul în care colectăm, utilizăm și protejăm informațiile dvs. atunci când utilizați aplicația noastră mobilă ("Aplicația"), disponibilă la adresa <a href="https://medforpets.petrupodut.dev">medforpets.petrupodut.dev</a>.</p>
+                </section>
+
+                <section id="colectare-date">
+                    <h2>1. Informații pe care le colectăm</h2>
+                    
+                    <div class="data-usage">
+                        <h3>A. Camera și Datele de Imagine (Permisiuni Sensibile)</h3>
+                        <p>Aplicația solicită acces la <strong>Camera</strong> dispozitivului dvs.</p>
+                        <ul>
+                            <li><strong>Scop (Intent):</strong> Utilizată exclusiv pentru funcția "AI Scan" pentru a identifica probleme de sănătate ale animalelor sau pentru scanarea prospectelor.</li>
+                            <li><strong>Procesare (Processing):</strong> Imaginile sunt transmise prin canal securizat către <strong>Google Gemini API</strong>.</li>
+                            <li><strong>Retenție (Storage):</strong> Medforpets <strong>nu stochează</strong> imaginile pe servere. Procesarea are loc în-memorie și datele sunt șterse imediat.</li>
+                        </ul>
+                    </div>
+
+                    <div class="data-usage">
+                        <h3>B. Date de Locație (Permisiuni Sensibile)</h3>
+                        <p>Aplicația solicită acces la <strong>Locația</strong> dvs. (Fine & Coarse location).</p>
+                        <ul>
+                            <li><strong>Scop:</strong> Identificarea clinicilor veterinare din apropiere pe hartă.</li>
+                            <li><strong>Control:</strong> Utilizatorul poate revoca accesul oricând din setările Android/iOS.</li>
+                        </ul>
+                    </div>
+
+                    <div class="data-usage">
+                        <h3>C. Date Locale</h3>
+                        <p>Informațiile despre animale sunt stocate <strong>local pe dispozitiv</strong> (Room DB). Nu există sincronizare în cloud fără acordul explicit al utilizatorului.</p>
+                    </div>
+                </section>
+
+                <section id="servicii-terte">
+                    <h2>2. Servicii Terțe</h2>
+                    <p>Aplicația integrează următoarele servicii Google:</p>
+                    <ul>
+                        <li><strong>Google Play Services</strong> (Core functionality)</li>
+                        <li><strong>Google Gemini API</strong> (AI Analysis)</li>
+                        <li><strong>Google Maps API</strong> (Geospatial display)</li>
+                    </ul>
+                </section>
+
+                <section id="securitate">
+                    <h2>3. Securitatea Datelor</h2>
+                    <p>Toate transmisiile de date (către Gemini API) sunt criptate utilizând protocolul <strong>TLS/SSL</strong>.</p>
+                </section>
+
+                <section id="contact">
+                    <h2>4. Informații de Contact</h2>
+                    <div class="contact-box" itemscope itemtype="https://schema.org/Person">
+                        <p><strong>Dezvoltator:</strong> <span itemprop="name">Poduț Petru Alexandru (Pixcode)</span></p>
+                        <p><strong>Email:</strong> <a href="mailto:podutpetru@gmail.com" itemprop="email">podutpetru@gmail.com</a></p>
+                        <p><strong>Adresă:</strong> <span itemprop="address">Str. Ciprian Porumbescu nr. 1, Baia Mare, Maramureș, România</span></p>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Medforpets. Document generat pentru conformitate Google Play Store.</p>
+        </footer>
+    </div>
+</body>
+</html>

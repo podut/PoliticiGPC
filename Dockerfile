@@ -1,0 +1,17 @@
+# Folosim o imagine de Nginx care nu rulează ca root (maximum security)
+FROM nginxinc/nginx-unprivileged:stable-alpine
+
+# Copiem fișierele statice în directorul de conținut al Nginx
+COPY ./public /usr/share/nginx/html
+
+# Copiem configurația securizată de Nginx
+COPY nginx.conf /etc/nginx/conf.d/default.conf
+
+# Portul implicit pentru nginxinc/nginx-unprivileged este 8080
+EXPOSE 8080
+
+# Verificare de sănătate (Healthcheck)
+HEALTHCHECK --interval=30s --timeout=3s \
+  CMD curl -f http://localhost:8080/ || exit 1
+
+CMD ["nginx", "-g", "daemon off;"]
