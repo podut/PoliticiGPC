@@ -7,13 +7,36 @@
     --container-bg: #ffffff;
 }
 
+.language-switcher {
+    text-align: right;
+    padding: 15px 30px;
+    background: var(--container-bg);
+    border-bottom: 1px solid #eee;
+    font-size: 0.9rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.language-switcher a {
+    padding: 5px 12px;
+    border-radius: 6px;
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.language-switcher a.active {
+    background: var(--accent-color);
+    color: white !important;
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     line-height: 1.6;
     color: var(--text-color);
     background-color: var(--bg-color);
     margin: 0;
-    padding: 20px;
+    padding: 0;
 }
 
 .container {
